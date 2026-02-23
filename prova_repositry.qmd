@@ -1,0 +1,13 @@
+---
+title: "Untitled"
+format: html
+---
+
+```{r}
+user<-"git config --global user.name 'vittoriovaglio' "
+email<-"git config --global user.email 'vittorio.vagliotanet@studio.unibo.it' "
+print(system(user, intern=TRUE))
+print(system(email, intern=TRUE))
+print(system("where git", intern=TRUE))
+```
+
